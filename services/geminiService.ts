@@ -26,7 +26,7 @@ export const getHydrationAdvice = async (
     `;
 
     const response = await ai.models.generateContent({
-      model: "gemini-1.5-pro-001",
+      model: "gemini-1.5-flash-001",
       contents: prompt,
       config: {
         systemInstruction: "You are a friendly personal health assistant specialized in hydration. You speak Thai naturally and encouragingly.",
